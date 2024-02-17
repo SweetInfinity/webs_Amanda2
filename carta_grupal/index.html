@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carta de Restaurante</title>
+        <meta name="description" content="Ejercicio de flexbox">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <img class="header__logo" src="./img/logo.svg">
+            <p class="header__nombre"><a href="./index.html">Burger Amanda</a></p>
+                        
+            <nav class="header__nav">
+                <a href="#">Nuestra carta</a>
+                <a href="#">Contacto</a>
+            </nav>
+            
+        <!-- Slider -->
+        </header>
+        <div class="container">
+            <ul class="slider">
+                <li id="slide1">
+                    <img src="./img/Entrantes2.jpg" alt="slide">
+                </li>
+                <li id="slide2">
+                   <img src="./img/01.jpg" alt="slide">
+                </li>
+                <li id="slide3">
+                    <img src="./img/postre01.jpg" alt="slide">
+                </li>
+            </ul>
+            <nav class="nav-menu">
+                <ul class="menu">
+                    <li>
+                        <a href="#slide1">1</a>
+                    </li>
+                    <li>
+                        <a href="#slide2">2</a>
+                    </li>
+                    <li>
+                        <a href="#slide3">3</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="contenedor">
+
+            <!-- Entrantes -->
+            <div class="contenedor">
+                <h2>Entrantes</h2>
+                <section>
+                    <div id="elemento">
+                        <div class="elemento__imagen">
+                            <img src="./img/Entrantes1.jpg" alt="Entrantes de pollo" loading="lazy">
+                        </div>
+                        <div class="elemento__nombre">
+                            <h2>Entrantes de pollo</h2>
+                        </div>
+                    </div>
+                    <div id="elemento">
+                        <div class="elemento__imagen">
+                            <img src="./img/Entrantes2.jpg" alt="Titanas" loading="lazy">
+                        </div>
+                        <div class="elemento__nombre">
+                            <h2>Titanas</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Hamburguesas -->
+            <div class="contenedor">
+                <h2>Hamburguesas</h2>
+                <section>
+                    <div id="elemento">
+                        <div class="elemento__imagen">
+                            <img src="./img/01.jpg" alt="Hamburguesa de cerdo" loading="lazy">
+                        </div>
+                        <div class="elemento__nombre">
+                            <h2>Hamburguesa Black Angus</h2>
+                        </div>
+                    </div>
+                    <div id="elemento">
+                        <div class="elemento__imagen">
+                            <img src="./img/02.jpg" alt="Hamburguesa de pollo" loading="lazy">
+                        </div>
+                        <div class="elemento__nombre">
+                            <h2>Hamburguesa estilo Kentucky</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Postres -->
+            <div class="contenedor">
+                <h2>Postres</h2>
+                <section>
+                    <div id="elemento">
+                        <div class="elemento__imagen">
+                            <img src="./img/postre01.jpg" alt="Tarta Red Velvet" loading="lazy">
+                        </div>
+                        <div class="elemento__nombre">
+                            <h2>Tarta Red Velvet</h2>
+                        </div>
+                    </div>
+                    <div id="elemento">
+                        <div class="elemento__imagen">
+                            <img src="./img/postre02.jpg" alt="Shake Milk" loading="lazy">
+                        </div>
+                        <div class="elemento__nombre">
+                            <h2>Shake Milk</h2>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__nombre">Burger Amanda</p>            
+            <nav class="footer__nav">
+                <a href="#">Nuestra carta</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <nav class="footer__nav__iconos">
+                <a href="#"><img src="./img/facebook.svg" alt="facebook"  loading="lazy"></a>
+                <a href="#"><img src="./img/instagram.svg" alt="instagram"  loading="lazy"></a>
+                <a href="https://www.google.com/maps/place/Afterlife+Esports+Gamer+Bar/@41.3948569,2.1437291,15z/data=!4m5!3m4!1s0x0:0x98060535cdf313d1!8m2!3d41.3948569!4d2.1437291" target="_blank" rel="nofollow noopener">
+                	<abbr title="Barcelona"><img src="./img/geo.png" alt="geo" height="48px"></abbr>
+                </a>
+                <p class="footer__colaboradores">Amanda - Mario - David - Paula</p>
+            </nav>
+        </footer>
+    </body>
+</html>

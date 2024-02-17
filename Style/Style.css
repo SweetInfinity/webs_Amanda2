@@ -1,0 +1,107 @@
+body {
+    text-align: center; /* Sirve para poner el texto en el centro */
+    background-image: url('../Imagenes-Video/FondoDBD.gif'); /* Gif */
+    width: 60%; /* Sirve para el ancho del gif en este caso */
+    color: rgb(242, 255, 0); /* Le da color a las letras */
+    font-size: larger; /* Aumenta el tamaño de la fuente */
+    margin: 0 auto; /* El gif se centra horizontalmente */
+    background-size: cover; /* Ajusta el tamaño sin distorsionar la imagen */
+    background-repeat: no-repeat; /* El gif no se repite y se verá en pantalla completa */
+    background-attachment: fixed; /* El gif permanece fijo en toda la pantalla sin desplazamiento */
+    text-shadow: 0 0 100px #ffffff, /* Agrega sombras a un texto (en este caso una sombra blanca creando resplandor) */
+    0 0 20px #000000, /* Agrega una sombra negra */
+    0 0 30px #ff00ea, /* Cinco sombras rosadas de diferentes radios */
+    0 0 40px #ff00ea,
+    0 0 50px #ff00ea,
+    0 0 60px #ff00ea,
+    0 0 70px #ff00ea;
+}
+
+/* Estilos del texto */
+.texto {
+    margin-left: 10%; /* Agrega un margen en el lado izquierdo del elemento, y el valor del 10% indica que el margen tendrá un ancho igual al 10% */
+    margin-right: 10%; /* Agrega un margen en el lado derecho del elemento, y el valor del 10% indica que el margen tendrá un ancho igual al 10% */
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+/* Estilos del video */
+#video-dbd {
+    display: block; /* ocupa todo el ancho horizontal disponible */
+    margin: auto; /* Se usa para centrar horizontalmente un elemento (se utiliza combinado)*/
+    width: 100%; /* El elemento ocupará todo el ancho disponible dentro de su contenedor. */
+    height: auto; /* La altura se ajustará automáticamente */
+}
+
+/* Estilos de las columnas */
+.columna {
+    margin: 10px; /* Agrega un margen para separar las columnas */
+    display: inline-block; /* Muestra los elementos en una fila */
+    padding: 10px; /* Agrega relleno para espacio interno */
+}
+
+/* Estilos de la lista */
+li {
+    text-align: left; /* Se usa para poner el texto a la izquierda (en este caso, el texto esta cerca del punto de la "lista" */
+}
+
+.imagen {
+    width: 200px; /* Ancho de las imágenes */
+}
+
+/* Estilos de la imagen al pasar el cursor sobre ella */
+.imagen:hover { 
+    /* Permite definir cómo se verá un elemento cuando el usuario interactúa con él al mover el cursor sobre él. */
+    transform: scale(1.2); /* Se utiliza para aplicar una transformación ( en este caso indica un factor de escala, donde 1 representa el tamaño original del elemento y 1.2
+    indica que el elemento se agrandará al 120% de su tamaño original.)  */
+    transition: .3s ease; /* Se establece que la duración de la transición será de 0.3 segundos. "ease" determina cómo se distribuirá la transición en el tiempo. Hace que la transición comience lentamente, 
+    se acelere durante la mitad de la duración y luego se desacelere nuevamente al final. (se usa para suavizar las transiciones de cambio en las propiedades de un elemento, y la duración de la transición 
+    se establece en 0.3 segundos. ) */
+}
+
+.perks {
+    width: 90%; /* Ancho de las imágenes */
+}
+
+.icono{
+    width: 30px; /* Ancho de la imágen */
+}
+
+/* Estilos de los derechos */
+.derechos {
+    padding-left: 10px; /* Se ajusta el texto a la parte izquierda */
+    margin-bottom: -85px; /* Establece un margen inferior de -85 píxeles. (hace que este a la misma altura que el padding en este caso) */
+}
+
+/* Estilos del contacto */
+#contacto {
+    text-align:right; /* Se usa para poner el texto a la derecha */
+    align-items:flex-start; /* Los elementos se alinearán en la parte superior */
+    padding-right: 10px; /* Define la cantidad de espacio en blanco (padding) que se debe agregar en el lado derecho */
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: left; /* Se usa para poner el texto a la izquierda */
+    color: rgb(255, 255, 255); /* Le da color a las letras */
+    font-size: 17px; /* Elige el tamaño de la fuente */
+    background-color: black; /* Fondo negro */
+}
+
+/* Estilos del pie de página */
+#pie-pagina {
+    width: 100%; /* Se utiliza para hacer que un elemento ocupe el 100% del ancho */
+    padding-bottom: 1%; /* Agregar relleno (padding) en la parte inferior de un elemento, y el valor 1% indica que el relleno se establece en el 1% del ancho del elemento. */
+}
+
+/* Estilos de las redes sociales */
+.RRSS {
+    text-align: center; /* Alinea el texto en el centro */
+    margin: auto; /* Centra de manera automática */
+    margin-top: -50px; /* Se desplazará hacia arriba. El elemento se moverá 50 píxeles hacia arriba desde su posición normal. (por valor "-" (negativo))*/
+}
+
+#RRSS img {
+    width: 30px; /* Ancho de las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 5px; /* margen de 5 píxeles */
+}

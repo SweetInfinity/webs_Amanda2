@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esta es una web basada en un videojuego asimétrico de supervivencia-horror (Dead By Daylight)">
+        <meta name="keywords" content="Web, videojuego, supervivencia, horror, asimétrico, Dead By Daylight, DBD, Muerto a la luz del día">
+        <meta name="author" content="Amanda">
+        <link rel="stylesheet" href="Style/Style.css">
+        <title>Dead by Daylight</title>
+        <link rel="icon" href="./Imagenes-Video/icono.png" type="image/x-icon"> <!-- Con esto veremos el icono en la pestañita de la página -->
+    </head>
+    <body> 
+        <header> <!-- Es un encabezado -->
+            <h1>Dead by Daylight</h1>
+        </header>
+        <section id="inicio"> <!-- Dividido por secciones -->
+            <h2>Bienvenido a Dead by Daylight</h2>
+            <p class="texto">Dead by Daylight es un videojuego de supervivencia asimétrica desarrollado por Behaviour Interactive. En este juego, los jugadores pueden asumir el papel de un asesino o un superviviente en un aterrador enfrentamiento.</p>
+        </section>
+        <section id="juego"> <!-- Dividido por secciones -->
+            <h2>El Juego</h2>
+            <a href="https://deadbydaylight.com/" target="_blank"> <span role="img" aria-label="Dead by Daylight">💀</span></a> <!-- Enlace -->
+            <p class="texto">Dead by Daylight se juega en partidas en línea donde un jugador asume el papel del asesino, mientras que los otros son supervivientes. El objetivo del asesino es atrapar y sacrificar a los supervivientes, mientras que estos intentan escapar y completar generadores para abrir una puerta de escape.</p>
+            <video id="video-dbd" controls preload="auto">
+                <source src="./Imagenes-Video/DeadByDaylight-Trailer.mp4#t=05,236"> <!-- Ruta donde se encuentra el video -->
+            </video>
+        </section>
+        <section id="personajes"> <!-- Dividido por secciones -->
+            <h2>Personajes</h2>
+            <figure>
+                <a target="_blank" href="https://deadbydaylight.com/game/characters/">  <!-- Abre otra pestaña cuando pinchas en la imagen -->
+                    <img class="icono" src="./Imagenes-Video/Emoji.JPG" alt="Icono del juego"> </a> <!-- Ruta donde se encuentra la imagen -->
+                <figcaption><strong>Supervivientes</strong></figcaption> <!-- Aparece una breve descripción -->
+                <img class="imagen" src="./Imagenes-Video/Dwight.JPG" alt="Imagen de Dwight">
+                <img class="imagen" src="./Imagenes-Video/Meg.JPG" alt="Imagen de Meg">
+                <img class="imagen" src="./Imagenes-Video/Claudette.JPG" alt="Imagen de Claudette">
+                <img class="imagen" src="./Imagenes-Video/Jake.JPG" alt="Imagen de Jake">
+            </figure>
+            <figure>
+                <figcaption><strong>Asesinos</strong></figcaption> <!-- Aparece una breve descripción -->
+                <img class="imagen" src="./Imagenes-Video/Arponero.JPG" alt="Imagen del Arponero">
+                <img class="imagen" src="./Imagenes-Video/Cazadora.JPG" alt="Imagen de la Cazadora">
+                <img class="imagen" src="./Imagenes-Video/Payaso.JPG" alt="Imagen del Payaso">
+                <img class="imagen" src="./Imagenes-Video/Onryo.JPG" alt="Imagen de la Onryo">
+            </figure>
+        </section>
+        <section id="habilidades"> <!-- Dividido por secciones -->
+            <h2>Habilidades</h2>
+            <figure>
+                <img class="perks" src="./Imagenes-Video/Perks.jpg" alt="Imagen de algunas habilidades de los personajes del juego">
+                <figcaption>Estas son algunas de las habilidades que te puedes encontrar dentro del juego.</figcaption>
+            </figure>
+        </section>
+        <section> <!-- Dividido por secciones -->
+            <h2>Modos de juego</h2>
+            <p class="texto">Actualmente solo hay un modo de juego. Aunque el juego salió el <em><strong>14 de Junio de 2016,</strong></em> ha estado en constante crecimiento. Estos son algunos de los cambios del juego hasta ahora:</p>
+            <div class="columnas"> <!-- Dividido por un div -->
+                <div class="columna">
+                    <h3>Cambios/Mejoras</h3>
+                    <ul> <!-- Lista desordenada -->
+                        <li>Mejor movilidad de personaje</li>
+                        <li>Pase de "batalla" (Grieta)</li>
+                        <li>DLC's</li>
+                        <li>Skins</li>
+                        <li>Eventos</li>
+                        <li>Mapas nuevos</li>
+                    </ul>
+                </div>
+                <div class="columna">
+                    <h3>Otros cambios</h3>
+                    <ul>
+                        <li>Guardado de progreso</li>
+                        <li>Crossplay</li>
+                        <li>Modo Streamer</li>
+                        <li>Sanciones por desconexión</li>
+                        <li>Anticamping</li>
+                        <li>Gráficos y rendimiento</li>
+                        <li>Sistema de clasificación</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <footer id="pie-pagina"> <!-- Es la parte final de la página / dividido por una id -->
+            <br>
+            <p class="derechos"><em>Esta web está creada por Amanda. <br> © 2023 Todos los derechos reservados.</em></p>  <!-- Dividido por una clase -->
+            <section id="contacto"> <!-- Dividido por secciones -->
+                <h5> Contacto: 698754321 </h5>
+                <h5> Correo: amanda96@contacto.com </h5>
+            </section>
+            <div class="RRSS"> <!-- Dividido por un div -->
+                <div id="RRSS">
+                    <a href="http://instagram.com/" rel="nofollow" target="_blank"><img decoding="async" loading="lazy" src="./Imagenes-Video/Instagram-Icono-Oficial.png" alt="Instagram"></a> 
+                    <!-- rel "nofollow" es para que no sigan el enlace, target="_blank" es para abrir otra pestaña sin perder la actual. decoding="async" es para que el navegador descodifique la imagen de forma asincrónica, para así mejorar el rendimiento de carga de la página. 
+                    loading="lazy" sirve para mejorar la velocidad de carga de la página. style="margin:5px" sirve para un estilo en línea para la imagen para que tenga un margen de 5 píxeles alrededor de la imagen. src= es la ruta donde esta la imagen. width="30" height="30 es el 
+                    ancho y el alto de la imagen. alt="Instagram" es un texto alternativo que se mostrará si la imagen no se carga o si el usuario pasa el cursor sobre ella.-->
+                    <a href="http://facebook.com/" rel="nofollow" target="_blank"><img decoding="async" loading="lazy" src="./Imagenes-Video/Facebook-Icono-Oficial.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/" rel="nofollow" target="_blank"><img decoding="async" loading="lazy" src="./Imagenes-Video/YouTube-Icono-Oficial.png" alt="YouTube"></a>
+                    <a href="http://twitter.com/" rel="nofollow" target="_blank"><img decoding="async" loading="lazy" src="./Imagenes-Video/Twitter-Icono-Oficial.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

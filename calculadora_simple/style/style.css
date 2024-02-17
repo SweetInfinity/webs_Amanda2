@@ -1,0 +1,27 @@
+input [type=text], button{
+    font-size: 22px;
+    border-radius: 3px;
+    margin: 5px;
+    width: 150px;
+    box-shadow: 2px 2px 5px #000000;
+    padding: 10px;
+    border: 1px solid rgb(135, 0, 45);
+}
+
+button {
+    background-color: rgb(255, 0, 128);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+body {
+    font-size: 30px;
+    text-align:center;
+    background-color: #000000;
+    color: white;
+}
+
+#resultado {
+    color: white;
+    font-size: 30px;
+}

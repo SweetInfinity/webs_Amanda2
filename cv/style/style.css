@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'Branden Raulner';
+    src: url('fonts/Branden\ Raulner.otf') format('truetype'); 
+}
+
+body {
+    background-image: url('../img/Captura1.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 42.%;
+    block-size: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 6.4in;
+    max-height: 9.9in;
+    margin: 16px auto;
+    margin-top: 17px ;
+    font-size: 16px;  
+    border: 2px solid #be9292;
+    box-sizing: border-box;
+    padding-bottom: 4%;
+    padding-top:63px;
+}
+
+h1 {
+    text-align: center;
+    color: #be9292;
+}
+
+h2 {
+    color: #be9292;
+    text-align: left;
+    margin-left: 24%;
+}
+
+.formacion {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 8%;
+    margin-left: 45%;
+}
+
+.formacion h2 {
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.carretillas {
+    text-align: left;
+    margin-top: -7%;
+    margin-left: 51%;
+}
+
+.carretillas-titulo ul {
+    text-align: left;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    margin-top: -6%;
+    margin-left: 1%;
+}
+
+.habilidades {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    text-align: left;
+    margin-right: 45%;
+    margin-top: -73.5%;
+}
+
+.habilidades  h2 {
+    margin-left: -15%;
+    margin-top: 1%;
+}
+
+.experiencia{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-right: 60%;
+    padding-left: 10%;
+    margin-top: -20%;
+}
+
+/* .enlaces{
+    vertical-align: top;
+    text-align: left;
+    margin-left: -9%;
+    padding-right: 65%;
+    padding-left: 20%;
+    margin-top: -4.6%;
+    display: inline-block;
+} */
+
+.experiencia > h2 {
+    margin-left: 12%;
+}
+/* 
+.enlaces > h2 {
+    margin-left: 20%;
+} */
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.curriculum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-personal {
+    text-align: left;
+    padding-left: 15%;
+}
+
+img {
+    border-radius: 10%;
+    margin-left: -4%;
+    margin-top: -30%;
+    margin-bottom: -1%;
+    width: 27%;
+} 
+
+img:hover{
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
+
+.contenedor {
+    /* background-color:rgba(188, 143, 143, 0.539); */
+    margin-top: -8.6%;
+}
+
+.color {
+    color: #be9292;
+}
+
+.titulos {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50%;
+    margin-top: -63%;
+    text-align: left;
+}
+
+.nombre {
+    color: #be9292;
+    margin-left: 50%;
+    font-family: 'Branden Raulner';
+    font-size: 150%;
+}
+
+.contacto{
+    margin-bottom: 0.5%;
+    margin-left: -82%;
+    margin-top: 2%;
+}
+
+strong {
+    margin-left: 3%;
+}
+
+p {
+    margin-right: 7%;
+    margin-left: 45%;
+    margin-top: -34%;
+    text-align: justify;
+}
+
+.iconos {
+    margin-bottom: -3.5%;
+    margin-left: -1%;
+}
+
+.año-2023 {
+    margin: 30px;
+    text-align: left;
+    margin-top: -1%;
+    margin-left: 25%;
+}
+
+.año-2022 {
+    margin: 30px;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 21%;
+}
+
+.formacion strong {
+    text-align: left;
+    margin-top: -3%;
+    margin-left: 2%;
+}
+
+.formacion .columna2{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-top: 10%;
+    margin-right: -10%;
+}
+

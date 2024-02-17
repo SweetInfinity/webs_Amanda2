@@ -1,0 +1,119 @@
+body {
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/01/sims-4-1856197.jpg?tf=1200x');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+a {
+    color: #ff2828;
+    text-decoration: none;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 100px white, 
+    0 0 20px white, 
+    0 0 30px white, 
+    0 0 40px white,
+    0 0 50px white,
+    0 0 60px white,
+    0 0 70px white;
+}
+
+h3 {
+    color:red;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding-right: 0.5%;
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    height: auto; 
+    border: 5px solid black;
+}
+
+div{
+    text-align: left;
+    margin-left: -60%;
+    max-width: 60%;
+}
+
+.derecha{
+    text-align: left;
+    max-width: 60%;
+    margin-left: -60%;
+}
+
+.columna2{
+    text-align: center;
+    margin-top: -103%;
+    margin-left: 20%;
+}
+
+.columna3{
+    margin-left: 98%;
+    margin-top: -79%;
+    margin-right: -60%;
+}
+
+.columna4{
+    margin-left: 98%;
+    margin-top: 0%;
+    margin-right: -60%;
+}
+
+.columna5{
+    margin-left: 98%;
+    margin-top: 5%;
+    margin-right: -60%;
+}
+
+.columna6{
+    margin-left: 20%;
+    margin-top: -90%;
+    margin-right: -100%;
+}
+
+iframe {
+    text-align: center;
+    margin-top: -28%;
+    margin-left: -160%;
+    width: 60%;
+}
+
+h2 {
+    margin-top: -15%;
+}
+
+img[src$=".png"] {
+    border: none;
+}
+
+.centro {
+    margin-left: 4%;
+}

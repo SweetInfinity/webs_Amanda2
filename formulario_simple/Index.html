@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Esta es una web de formularios">
+            <meta name="keywords" content="Web, ejercicio, formulario">
+            <meta name="author" content="Amanda">
+            <title>Formulario</title>
+    </head>
+    <body>
+        <form action="guardar()" method="GET">
+            <label>Nombre:</label> 
+            <input type="text" name="name" minlength="3" placeholder="Escribe tu nombre" required> <br> <br>
+            
+
+            <label>Apellido:</label> 
+            <input type="text" name="name" placeholder="Escribe tu apellido" required> <br> <br>
+
+            <label>Email:</label> 
+            <input type="email" name="correo" placeholder="ejemplo@gmail.com" required> <br> <br>
+
+            <label>Edad:</label> 
+            <input type="number" name="edad" min="18"> <br> <br>
+            
+
+            <label>Contraseña:</label> 
+            <input type="text" name="name" minlength="3" maxlength="12" placeholder="Escribe tu contraseña"> <br> <br>
+
+            <label for="TipoVia" required>Tipo de via:</label>
+            <select name="TipoVia" id="TipoVia" required> 
+                <option value="Calle" required>Calle</option>
+                <option value="Avenida" required>Avenida</option>
+                <option value="Paseo" required>Paseo</option>
+            </select>
+            <br><br>
+
+            <label>Nombre de la via:</label> 
+            <input type="text" name="name" placeholder="Escribe tu dirección"> <br> <br>
+            
+            <label>Número:</label>
+            <input type="number" name="name" placeholder="Portal" required> <br> <br>
+        
+            <label>Código postal:</label>
+            <input type="text" name="codigo-postal" pattern="[0-9]{5}" title="Ingrese un código postal válido de 5 dígitos"> <br> <br>
+
+            <input type="radio" id="opcion1" name="opciones" value="opcion1">
+            <label for="opcion1">Mujer</label>
+
+            <input type="radio" id="opcion2" name="opciones" value="opcion2">
+            <label for="opcion2">Hombre</label>
+
+            <input type="radio" id="opcion3" name="opciones" value="opcion3">
+            <label for="opcion3">Sin especificar</label> <br> <br>
+
+            <input type="checkbox" id="verificar" name="verificar" value="verificado">
+            <label for="verificar">Verificar que todos los campos son correctos</label>
+        </form>
+    </body>
+</html>
